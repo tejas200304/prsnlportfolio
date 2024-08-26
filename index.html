@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9714f98185.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                 <nav>
+                    <img src="images/logo-1.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                 </nav>
+                 <div class="header-text">
+                     <p>Welcome to my Portfolio!</p>
+                     <h1>Hi, I'm <span>Tejas</span> </h1> 
+                     <h1>And I'm a Web Developer</h1>
+                 </div>
+                </div>
+        </div>
+        <!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/self.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello,I am a recent BCA graduate with a strong foundation in computer applications, currently expanding my skills as a MERN stack intern at Luminar Technolab in Kakkanad. My passion lies in web development, where I focus on creating dynamic and responsive applications using MongoDB, Express.js, React.js, and Node.js. Through my internship, I am gaining hands-on experience in full-stack development, building projects that solve real-world problems. I am eager to continue growing in this field and contribute to innovative projects that make a difference.</p>
+
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')"></p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Photo Editing</span><br>Transforming ordinary snapshots into extraordinary masterpieces</li>
+                            <li><span>Video Editing</span><br>Unlocking the full potential of videos with expert video editing, utilizing industry-leading tools like 
+                                                          DaVinci Resolve, Premiere Pro, and After Effects.</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>BCA from BVM Cherpunkal</li>
+                            <li><span>2021</span><br>HSS in SMV NSS HSS Kallara</li>
+                            <li><span>2019</span><br>High School in St.Therese Public School Ayamkudy</li>
+                           
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            
+                        </ul>
+                       </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- -----------services---------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-utensils"></i>
+                <h2>Rstaurant Website</h2>
+                <p>This project showcases a modern and visually appealing restaurant webpage, built exclusively using HTML and CSS. The design emphasizes a clean, user-friendly interface that highlights the restaurant's menu, ambiance, and key offerings. The layout is fully responsive, ensuring an optimal viewing experience on both desktop and mobile devices. The project demonstrates my ability to create engaging, functional web pages using fundamental web technologies without relying on additional frameworks or libraries.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chair"></i>
+                <h2>Furniture Website</h2>
+                <p>This project is a sleek and elegant furniture website designed using HTML, CSS, and Bootstrap. The site features a responsive layout that adapts seamlessly to various screen sizes, offering an intuitive browsing experience. The use of Bootstrap's grid system and components allowed for a polished, professional design with minimal effort, while custom CSS was employed to maintain a unique aesthetic that reflects the brand's identity. This project demonstrates my ability to integrate Bootstrap with custom styling to create a functional and visually appealing e-commerce platform.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <h2>Travel Website</h2>
+                <p>Voyage Vista is a vibrant and dynamic travel website developed using HTML, CSS, and Bootstrap. The site is designed to inspire adventure and exploration, with a user-friendly interface that guides visitors through destinations, travel tips, and booking options. Bootstrap's responsive design features ensure the site looks great on any device, while custom CSS adds unique styling to enhance the brand's personality. This project highlights my capability to build engaging, responsive websites that combine the power of Bootstrap with tailored design elements.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+ </div>
+ <!-- -----------portfolio---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/c,cpp.jpg">
+                <div class="layer">
+                    <h3>C & C++ Programming</h3>
+                    <p>I have proficient grasp of C&C++ programming operating at an intermediate level of expertise..</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/csshtml.jpg">
+                <div class="layer">
+                    <h3>HTML&CSS</h3>
+                    <p>I am proficient in HTML at an intermediate level and posses a basic knowledge of CSS.Thus allowing me create and structure web content effectively and to style and customize web content with fundamental proficiency.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/top-view-unrecognizable-hacker-performing-cyberattack-night.jpg">
+                <div class="layer">
+                    <h3>JavaScript</h3>
+                    <p>Equipped with a solid foundation in JavaScript, I am proficient in crafting interactive and dynamic web experiences that engage users and bring ideas to life.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----------contact---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact:tejas.s7750@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 by Tejas || All Rights reserved</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+        </body>
+</html>
